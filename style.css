@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px 25px ;
+}
+.logo{
+    display: flex;
+    /* flex-direction: column; */
+}
+.logo #toggle{
+    width: 40px;
+    display: none;
+}
+.nav-bar ul{
+    display: flex;
+    margin-top: 24px;
+}
+.nav-bar ul li{
+    margin-right: 40px;
+    border-right: 2.5px solid;
+    padding-right: 30px;
+    font-size: 21px;
+}
+.nav-bar ul li a{
+    color: rgb(33, 33, 33);
+}
+.big-img img{
+    width: 100%;
+}
+.wel-event{
+    position: relative;
+}
+.big-heading{
+    position: absolute;
+    top: 69px;
+    right: 0;
+    color: white;
+    font-size: 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-sec .head-title{
+    padding: 40px 0 0;
+    font-size: 50px;
+    color: #514e4e;
+    border-bottom: 4px solid #fadb96;
+    display: inline-block;
+}
+.title-sec.center{
+    text-align: center;
+}
+.upcoming{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-event{
+    padding-bottom: 80px;
+}
+.event-img{
+    width: 460px;
+    height: 305px;
+    border-radius: 20px 20px 0 0;
+}
+.coming-event h4{
+    color: #514e4e;
+    font-size: 37px;
+    font-family: math;
+    padding: 30px 0;
+    font-weight: 700;
+}
+.upcoming .fashion{
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 20px;
+    margin: 25px;
+}
+.event-content{
+    padding: 20px;
+}
+.event-content h5{
+    color: #514e4e;
+    font-size: 23px;
+}
+.event-content p, span{
+    color: #6a6767;
+    font-size: 22px;
+}
+.view{
+    background: #f3f3f2;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -30px;
+}
+.view a{
+    color: #514e4e;
+    text-align: center;
+    font-size: 22px;
+}
+.service p{
+    font-family: math;
+    padding: 20px 0;
+    font-size: 24px;
+    color: #514e4e;
+    line-height: 1.5;
+}
+.event-social{
+    display: flex;
+}
+.both-social{
+    background: #f3f2f2;
+    padding: 25px;
+    width: 45%;
+    margin: 20px;
+}
+.both-social h5{
+    font-size: 34px;
+    color: #514e4e;
+    font-family: math;
+}
+.both-social ul{
+    line-height: 1.5;
+    padding: 37px;
+}
+.both-social ul li a{
+    font-size: 23px;
+    color: #514e4e;
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    width: 50%;
+}
+.about p{
+    padding: 30px 0;
+    font-size: 24px;
+    color: #514e4e;
+}
+.about-us{
+    padding-bottom: 70px;
+}
+.info{
+    position: relative;
+}
+.info .info-img1{
+    position: relative;
+    right: 60px;
+    border: 10px solid #f3f2f2;
+    transform: rotate(10deg);
+}
+.info .info-img2{
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    transform: rotate(30deg);
+    border: 10px solid #f3f2f2;
+}
+.contact-us{
+    background-image: url(./images/contact-banner.png);
+    background-size: cover;
+}
+.contact-us p{
+    font-size: 25px;
+    color: #514e4e;
+}
+.contact-us .title-sec{
+    padding-bottom: 30px;
+}
+.contact-us .form{
+    background: rgba(0, 0, 0, 0.5);
+    margin: 70px auto 0;
+    width: 70%;
+    padding: 30px;
+}
+.name-mail input{
+    font-size: 20px;
+    margin: 0 50px 20px 0;
+    padding: 10px;
+    border: none;
+    font-style: italic;
+}
+.name-mail{
+    display: flex;
+    justify-content: center;
+}
+.num-sms{
+    display: flex;
+    justify-content: center;
+}
+.contact-num .calling{
+    font-size: 20px;
+    margin: 0 50px 20px 0;
+    padding: 10px;
+    border: none;
+    font-style: italic;
+
+}
+.contact-num{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.check-box label{
+    color: #959292;
+}
+.massage textarea{
+    font-size: 20px;
+    margin: 0 50px 20px 0;
+    padding: 10px;
+    border: none;
+    font-style: italic;
+    height: 170px;
+    
+}
+.submit-btn input{
+    width: 105px;
+    height: 39px;
+    font-size: 18px;
+    background: black;
+    color: white;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-left: 88px;
+}
+/* #toggle{
+    display: none;
+} */
