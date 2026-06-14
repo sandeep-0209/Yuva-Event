@@ -28,6 +28,30 @@ Yuva Event is a modern and responsive website designed for organizing and showca
 * Cross Browser Compatible
 
 ---
+
+## 📸 Website Preview
+
+<h3>🏠 Home Section</h3>
+<img src="screenshots/home.png" width="800">
+
+<h3>ℹ️ About Section</h3>
+<img src="screenshots/about.png" width="800">
+
+<h3>📞 Contact Section</h3>
+<img src="screenshots/our-event.png" width="800">
+
+<h3>📞 Mobile Friendly Section</h3>
+<img src="screenshots/mobile-friendly.png" width="800">
+
+h3>🛠️ Our Event Section</h3>
+<img src="screenshots/our-event.png" width="800">
+
+h3>🛠️ Our Services Section</h3>
+<img src="screenshots/our-services.png" width="800">
+
+
+--- 
+
 ## 👨‍💻 Author
 
 Sandeep Keshri
