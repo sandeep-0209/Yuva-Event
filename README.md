@@ -43,10 +43,10 @@ Yuva Event is a modern and responsive website designed for organizing and showca
 <h3>📞 Mobile Friendly Section</h3>
 <img src="screenshots/mobile-friendly.png" width="800">
 
-h3>🛠️ Our Event Section</h3>
+<h3>🛠️ Our Event Section</h3>
 <img src="screenshots/our-event.png" width="800">
 
-h3>🛠️ Our Services Section</h3>
+<h3>🛠️ Our Services Section</h3>
 <img src="screenshots/our-services.png" width="800">
 
 
